@@ -20,7 +20,7 @@ java -jar target/java-sobel-paralelo-1.0.0.jar                         # imagen 
 java -jar target/java-sobel-paralelo-1.0.0.jar foto.jpg salida.png 8   # imagen, salida, hilos
 ```
 
-Resultados en un i7 de 20 hilos lógicos (promedio de 10 corridas, después de 3 de calentamiento):
+Resultados en un i7-13650HX (14 núcleos, 20 hilos lógicos) (promedio de 10 corridas, después de 3 de calentamiento):
 
 | Imagen | Secuencial | Paralelo (20 hilos) | Aceleración |
 |---|---|---|---|
